@@ -1,0 +1,21 @@
+{
+  "name": "website-monitoring",
+  "version": "1.0.0",
+  "description": "Script to monitor website's status",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^9.11.0",
+    "google-spreadsheet": "^4.1.2",
+    "mongodb": "^6.8.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6"
+  }
+}
