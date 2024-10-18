@@ -93,6 +93,7 @@ async function ping() {
       }
     } else {
       if (!object || status !== object.status) {
+        status = "Website is down";
         await addData(status, reqStatus);
         updateSheet();
       }
